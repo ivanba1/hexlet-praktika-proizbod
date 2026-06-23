@@ -18,18 +18,18 @@
 
 ## 🚀 Запуск проекта
 
-### 1. Клонировать репозиторий
+1. Клонировать репозиторий
 ```bash
 git clone https://github.com/ivanba1/hexlet-praktika-proizbod
 cd todo-app
-### 2. Настроить базу данных PostgreSQL
+2. Настроить базу данных PostgreSQL
 Создать базу данных с помощью скрипта sql/init.sql:
 
 bash
 psql -U postgres -f sql/init.sql
 Либо выполнить содержимое файла в вашем клиенте PostgreSQL.
 
-### 3. Настроить окружение сервера
+3. Настроить окружение сервера
 В папке server/ создать файл .env со следующим содержимым (подставить свои значения):
 
 env
@@ -40,11 +40,11 @@ DB_PASSWORD=your_password
 DB_NAME=todo_db
 JWT_SECRET=your_secret_key
 PORT=5000
-### 4. Установить зависимости и запустить сервер
+4. Установить зависимости и запустить сервер
 bash
 cd server
 npm install
 npm run dev   # или npm start
-### 5. Открыть клиентскую часть
+5. Открыть клиентскую часть
 Откройте файл client/index.html в браузере.
 Для корректной работы API должен быть запущен на http://localhost:5000.
