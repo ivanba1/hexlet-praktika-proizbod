@@ -1,3 +1,4 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/ivanba1/maintainability)](https://codeclimate.com/github/ivanba1/hexlet-praktika-proizbod )
 # 📋 To-Do List App
 
 Веб-приложение для управления списком задач с серверной частью на Node.js и базой данных PostgreSQL.  
