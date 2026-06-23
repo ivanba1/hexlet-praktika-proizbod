@@ -17,9 +17,8 @@
 ---
 
 ## 🚀 Запуск проекта
-
-1. Клонировать репозиторий
 ```bash
+1. Клонировать репозиторий
 git clone https://github.com/ivanba1/hexlet-praktika-proizbod
 cd todo-app
 2. Настроить базу данных PostgreSQL
